@@ -1,0 +1,21 @@
+{
+  "name": "magesquirrel/magento2-amasty-dev-license",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "amasty/base": "1.17.*"
+  },
+  "license": [
+    "Open Software License (OSL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageSquirrel\\AmastyDevLicense\\": ""
+    }
+  }
+}
